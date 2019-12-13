@@ -162,9 +162,6 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB := libinit_markw
 TARGET_RECOVERY_DEVICE_MODULES := libinit_markw
 
-# Lockscreen Real Time Charging Current Values
-BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
-
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
