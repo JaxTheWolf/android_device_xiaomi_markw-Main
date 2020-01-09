@@ -71,9 +71,11 @@ endif
 ifeq ($(filter OMR1 O 8.1.0, $(PLATFORM_VERSION)), )
 USE_DISPLAY_SERVICE := true
 LOCAL_CFLAGS += -DUSE_DISPLAY_SERVICE
+LOCAL_CFLAGS += -std=c++11 -std=gnu++1y
+else
+LOCAL_CFLAGS += -std=c++11 -std=gnu++0x
 endif
 
-LOCAL_CFLAGS += -std=c++11 -std=gnu++0x -Wno-error
 #HAL 1.0 Flags
 LOCAL_CFLAGS += -DDEFAULT_DENOISE_MODE_ON -DHAL3 -DQCAMERA_REDEFINE_LOG
 
@@ -146,4 +148,3 @@ include $(BUILD_SHARED_LIBRARY)
 
 include $(call first-makefiles-under,$(LOCAL_PATH))
 endif
-
