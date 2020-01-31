@@ -88,6 +88,7 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e2ff653e1a5e9d6379fa1fee6824
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|0ff482f72a05eb9e2a4617fe03ae9e737843c885
 
 # Bluetooth (Shared Dependencies) - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib/vendor.qti.hardware.fm@1.0.so|8e13cca2be4c4f9812d656e4cb15bd524fdfdf12
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|027c226838e80a04209e5fb6a8882ce78c3b4222
 
 # Bluetooth (aptX) - from Crosshatch QQ1A.200105.002
@@ -665,6 +666,12 @@ lib64/libfpnav.so:vendor/lib64/libfpnav.so
 lib64/libfpservice.so:vendor/lib64/libfpservice.so
 
 # FM Radio - from LA.UM.8.6.r1-02600-89xx.0
+lib/fm_helium.so|c3370d68efea31b6a0eb03372ab726792877fb16
+lib64/fm_helium.so|10bf2489995d3717ebb0f91c73ffec3504fd0159
+lib/libfm-hci.so|36611a54fcb48ac942e030a1e4b4e3b47752d007
+lib64/libfm-hci.so|a281726ca32cd52609c9b3e65345eb7dd868339c
+product/lib/vendor.qti.hardware.fm@1.0.so|8e13cca2be4c4f9812d656e4cb15bd524fdfdf12
+product/lib64/vendor.qti.hardware.fm@1.0.so|027c226838e80a04209e5fb6a8882ce78c3b4222
 vendor/bin/fm_qsoc_patches|b288ea0c03e651d6f47c6fe833606f22dd656367
 vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
 vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
