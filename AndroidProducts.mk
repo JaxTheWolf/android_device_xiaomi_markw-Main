@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_markw.mk
+    $(LOCAL_DIR)/aosp_markw.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_markw-user \
-    havoc_markw-userdebug \
-    havoc_markw-eng
+    aosp_markw-user \
+    aosp_markw-userdebug \
+    aosp_markw-eng
