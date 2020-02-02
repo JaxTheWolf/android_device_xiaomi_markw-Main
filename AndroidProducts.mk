@@ -17,6 +17,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_markw.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_markw-user \
-    aosp_markw-userdebug \
-    aosp_markw-eng
+    aosp_markw-userdebug
